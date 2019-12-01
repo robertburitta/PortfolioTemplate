@@ -68,3 +68,14 @@ p.para {
 .font-roboto {
     font-family: "Roboto";
 }
+
+button:focus, button:active button:hover .btn:active, .btn.active {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.title-h1 {
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 40px;
+}
